@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - PAF-IAST</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/pages.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h1>PAF-IAST</h1>
+                    <p>Institute of Applied Sciences & Technology</p>
+                </div>
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd Love to Hear From You</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="page-content">
+        <div class="container">
+            <!-- Quick Contact Info -->
+            <div class="section">
+                <h2>Get in Touch</h2>
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Address</h3>
+                        <p>Pak-Austria Fachhochschule</p>
+                        <p>Institute of Applied Sciences & Technology</p>
+                        <p>Khanpur Road, Mang Haripur</p>
+                        <p>Khyber Pakhtunkhwa, Pakistan</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <p><strong>Main Office:</strong> +92-995-111 723 278</p>
+                        <p><strong>Admissions:</strong> +92-995-111 723 285</p>
+                        <p><strong>Fax:</strong> +92-995-645117</p>
+                        <p><strong>Hours:</strong> Mon-Fri: 9 AM - 5 PM</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p><strong>General:</strong> info@paf-iast.edu.pk</p>
+                        <p><strong>Admissions:</strong> admissions@paf-iast.edu.pk</p>
+                        <p><strong>Research:</strong> research@paf-iast.edu.pk</p>
+                        <p><strong>Support:</strong> support@paf-iast.edu.pk</p>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Follow Us</h3>
+                        <p>Stay connected on social media for updates and announcements</p>
+                        <div class="social-links-large">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="section">
+                <h2>Send us a Message</h2>
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="category">Inquiry Category *</label>
+                            <select id="category" name="category" required>
+                                <option value="">Select Category</option>
+                                <option value="admission">Admission Inquiry</option>
+                                <option value="academics">Academic Information</option>
+                                <option value="research">Research Opportunities</option>
+                                <option value="facility">Campus Facilities</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="complaint">Complaint/Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Please describe your inquiry in detail..." required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="checkbox">
+                                <input type="checkbox" name="subscribe">
+                                Subscribe to our newsletter for updates
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Department Contacts -->
+            <div class="section">
+                <h2>Department Contacts</h2>
+                <div class="departments-contact">
+                    <div class="dept-contact">
+                        <h3>Mechanical Engineering</h3>
+                        <p><i class="fas fa-phone"></i> +92-995-111 723 290</p>
+                        <p><i class="fas fa-envelope"></i> mech@paf-iast.edu.pk</p>
+                        <p><i class="fas fa-user"></i> Dr. Ahmad Hassan</p>
+                    </div>
+
+                    <div class="dept-contact">
+                        <h3>Electrical Engineering</h3>
+                        <p><i class="fas fa-phone"></i> +92-995-111 723 291</p>
+                        <p><i class="fas fa-envelope"></i> elec@paf-iast.edu.pk</p>
+                        <p><i class="fas fa-user"></i> Dr. Sarah Khan</p>
+                    </div>
+
+                    <div class="dept-contact">
+                        <h3>Software Engineering</h3>
+                        <p><i class="fas fa-phone"></i> +92-995-111 723 292</p>
+                        <p><i class="fas fa-envelope"></i> software@paf-iast.edu.pk</p>
+                        <p><i class="fas fa-user"></i> Dr. Ali Raza</p>
+                    </div>
+
+                    <div class="dept-contact">
+                        <h3>Chemical Engineering</h3>
+                        <p><i class="fas fa-phone"></i> +92-995-111 723 293</p>
+                        <p><i class="fas fa-envelope"></i> chem@paf-iast.edu.pk</p>
+                        <p><i class="fas fa-user"></i> Dr. Fatima Ahmed</p>
+                    </div>
+
+                    <div class="dept-contact">
+                        <h3>Transportation Engineering</h3>
+                        <p><i class="fas fa-phone"></i> +92-995-111 723 294</p>
+                        <p><i class="fas fa-envelope"></i> trans@paf-iast.edu.pk</p>
+                        <p><i class="fas fa-user"></i> Dr. Muhammad Ali</p>
+                    </div>
+
+                    <div class="dept-contact">
+                        <h3>Student Affairs</h3>
+                        <p><i class="fas fa-phone"></i> +92-995-111 723 300</p>
+                        <p><i class="fas fa-envelope"></i> students@paf-iast.edu.pk</p>
+                        <p><i class="fas fa-user"></i> Ms. Hira Khan</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Office Hours -->
+            <div class="section">
+                <h2>Office Hours</h2>
+                <div class="office-hours">
+                    <div class="hours-card">
+                        <h4>Main Campus</h4>
+                        <p><strong>Monday - Friday:</strong> 9:00 AM - 5:00 PM</p>
+                        <p><strong>Saturday:</strong> 10:00 AM - 2:00 PM</p>
+                        <p><strong>Sunday:</strong> Closed</p>
+                    </div>
+
+                    <div class="hours-card">
+                        <h4>Admissions Office</h4>
+                        <p><strong>Monday - Friday:</strong> 9:00 AM - 5:00 PM</p>
+                        <p><strong>Saturday:</strong> 9:00 AM - 1:00 PM</p>
+                        <p><strong>Emergency:</strong> Available on request</p>
+                    </div>
+
+                    <div class="hours-card">
+                        <h4>Library</h4>
+                        <p><strong>Weekdays:</strong> 8:00 AM - 8:00 PM</p>
+                        <p><strong>Weekends:</strong> 10:00 AM - 4:00 PM</p>
+                        <p><strong>Summer Schedule:</strong> 24-hour access during finals</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="section">
+                <h2>Location</h2>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.8457652345234!2d72.9272!3d33.9186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df53a7d7f7f7f7%3A0x123456789!2sPAF-IAST%20Haripur!5e0!3m2!1sen!2spk!4v1707898765432" 
+                        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- FAQ -->
+            <div class="section">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faqs">
+                    <div class="faq-item">
+                        <h4>How can I schedule a campus tour?</h4>
+                        <p>Contact the admissions office at admissions@paf-iast.edu.pk or call +92-995-111 723 285. Tours are available on weekdays from 10 AM to 3 PM.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>What is the best way to reach the admissions office?</h4>
+                        <p>Email is recommended for detailed inquiries. For quick responses, call during office hours (Mon-Fri: 9 AM - 5 PM). You can also visit the office in person.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>Do you have student accommodation?</h4>
+                        <p>Yes, we provide separate hostel facilities for male and female students. For more information, contact the Student Affairs office.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h4>How can I request official documents/transcripts?</h4>
+                        <p>Visit the Registrar's office or submit a written request via email to support@paf-iast.edu.pk. Processing time is usually 3-5 working days.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>Our Campus</h4>
+                    <ul>
+                        <li><a href="#">Green Campus</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Vision & Mission</a></li>
+                        <li><a href="#">Infrastructure</a></li>
+                        <li><a href="#">Video Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="academics.html">Departments</a></li>
+                        <li><a href="#">International Office</a></li>
+                        <li><a href="#">Central Library</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Research & Innovation</h4>
+                    <ul>
+                        <li><a href="#">Transportation Engineering</a></li>
+                        <li><a href="#">AI Center</a></li>
+                        <li><a href="#">Mineral Resources</a></li>
+                        <li><a href="#">Nano-Technology</a></li>
+                        <li><a href="#">Technology Zone</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p><strong>PAF-IAST</strong></p>
+                    <p>Khanpur Road, Mang Haripur</p>
+                    <p>Khyber Pakhtunkhwa, Pakistan</p>
+                    <p><i class="fas fa-phone"></i> +92-995-111 723 278</p>
+                    <p><i class="fas fa-envelope"></i> info@paf-iast.edu.pk</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 PAF-IAST. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>

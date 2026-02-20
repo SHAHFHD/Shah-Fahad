@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60">
+  <rect x="5" y="5" width="110" height="50" fill="#1e5ba8" opacity="0.15" rx="3"/>
+  <text x="60" y="35" font-size="10" font-weight="bold" text-anchor="middle" fill="#1e5ba8">Haripur</text>
+  <text x="60" y="48" font-size="9" text-anchor="middle" fill="#1e5ba8">Chamber</text>
+</svg>
