@@ -9,27 +9,29 @@
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar">
+ <nav class="main-nav" id="mainNav">
         <div class="container">
-            <div class="nav-wrapper">
+            <div class="nav-content">
                 <div class="logo">
-                    <h1>PAF-IAST</h1>
-                    <p>Institute of Applied Sciences & Technology</p>
+                    <img src="images/logo.png" alt="PAF-IAST Logo" id="logoImg">
+                    <div class="logo-text">
+                        <h1>PAK-AUSTRIA<br>FACHHOCHSCHULE:</h1>
+                        <p>INSTITUTE OF APPLIED SCIENCES AND TECHNOLOGY</p>
+                    </div>
                 </div>
-                <button class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <ul class="nav-menu" id="navMenu">
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="pages/about.html">About Us</a></li>
-                    <li><a href="pages/academics.html">Academics</a></li>
-                    <li><a href="pages/admissions.html">Admissions</a></li>
-                    <li><a href="pages/research.html">Research</a></li>
-                    <li><a href="pages/events.html">Events</a></li>
-                    <li><a href="pages/contact.html">Contact</a></li>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#study">Study</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#research">Research Centers</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
+                <div class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
         </div>
     </nav>
@@ -45,6 +47,48 @@
             </div>
         </div>
         <div class="hero-overlay"></div>
+    </section>
+
+   <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About PAF-IAST</h2>
+                <div class="header-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>INSTITUTE OF APPLIED SCIENCES AND TECHNOLOGY</h3>
+                    <p>Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology (PAF-IAST) is a public sector degree awarding institute, chartered by the Government of Khyber Pakhtunkhwa and recognized by the Higher Education Commission of Pakistan.</p>
+                    <p>PAF-IAST is committed to promoting equal opportunities and welcoming students from all backgrounds, irrespective of their creed, color, gender, ethnicity, and their social and financial status.</p>
+                    <p>The institute strongly encourages female students to join any program of their choice and realize their dreams through quality education and comprehensive support services.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <h4>2000+</h4>
+                            <p>Students</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>150+</h4>
+                            <p>Faculty Members</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>25+</h4>
+                            <p>Programs</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>10+</h4>
+                            <p>Research Centers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/logos/about.jpg" alt="About PAF-IAST">
+                    <div class="image-overlay">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Highlights Section -->
@@ -115,7 +159,7 @@
             <h2>Latest Insights</h2>
             <div class="insights-grid">
                 <div class="insight-card">
-                    <div class="insight-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="insight-image" style="background: url('images/greencampus.jpeg') center/cover no-repeat;"></div>
                     <div class="insight-content">
                         <p class="insight-date">18 FEBRUARY 2026</p>
                         <h3>Plantation Drive 2026</h3>
@@ -124,7 +168,7 @@
                     </div>
                 </div>
                 <div class="insight-card">
-                    <div class="insight-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="insight-image" style="background: url('images/campus.jpg') center/cover no-repeat;"></div>
                     <div class="insight-content">
                         <p class="insight-date">18 FEBRUARY 2026</p>
                         <h3>Our Proud Achiever</h3>
@@ -133,7 +177,7 @@
                     </div>
                 </div>
                 <div class="insight-card">
-                    <div class="insight-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="insight-image" style="background:url('images/campus2.jpg') center/cover no-repeat;"></div>
                     <div class="insight-content">
                         <p class="insight-date">12 FEBRUARY 2026</p>
                         <h3>High-Level Delegation from the Republic of Chad</h3>
@@ -258,34 +302,8 @@
                     <img src="images/logos/kpk-gov.svg" alt="KPK Government">
                     <p>KPK Government</p>
                 </div>
-                <div class="logo-item">
-                    <img src="images/logos/international-center.svg" alt="International Center">
-                    <p>International Center</p>
-                </div>
-                <div class="logo-item">
-                    <img src="images/logos/china-pak.svg" alt="China-Pak">
-                    <p>China-Pak</p>
-                </div>
-                <div class="logo-item">
-                    <img src="images/logos/national-radio.svg" alt="National Radio">
-                    <p>National Radio</p>
-                </div>
-                <div class="logo-item">
-                    <img src="images/logos/nescom.svg" alt="NESCOM">
-                    <p>NESCOM</p>
-                </div>
-                <div class="logo-item">
-                    <img src="images/logos/fpcci.svg" alt="FPCCI">
-                    <p>FPCCI</p>
-                </div>
-                <div class="logo-item">
-                    <img src="images/logos/akhuwat.svg" alt="Akhuwat">
-                    <p>Akhuwat</p>
-                </div>
-                <div class="logo-item">
-                    <img src="images/logos/haripur-chamber.svg" alt="Haripur Chamber">
-                    <p>Haripur Chamber</p>
-                </div>
+
+
             </div>
         </div>
     </section>
